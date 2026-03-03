@@ -1,0 +1,4 @@
+Bom esse é meu CRUD + Frot usando React + Js vai servir para curriculo durante o processo vou escrever todo passo que eu fiz no reademe
+Primeiro passo apos criar as pastas é criar o projeto.
+Tecnologias usadas, tailwind,axios,react router,postgres
+COMANDO : npm create vite@latest PortifolioCrud
