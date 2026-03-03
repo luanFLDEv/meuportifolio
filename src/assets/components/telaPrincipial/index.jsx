@@ -1,4 +1,4 @@
-import fotoPerfil from '../img/Perfil.gif'
+import fotoPerfil from '../img/perfil.gif'
 import Line from '../inputs/line'
 export default function Telaprincipal() {
 	return (
