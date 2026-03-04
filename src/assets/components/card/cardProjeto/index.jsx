@@ -1,6 +1,6 @@
 export default function CardProjeto({ imagem, titulo, descricao, link }) {
 	return (
-		<div className="bg-gray-100 p-1 rounded-lg shadow-md mb-4">
+		<div className="bg-gray-100 p-1 rounded-lg shadow-md mb-4 text-black">
 			<img
 				src={imagem}
 				alt={titulo}

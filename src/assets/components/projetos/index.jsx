@@ -11,7 +11,7 @@ export default function Projetos() {
 				Aqui estão alguns dos meus projetos pessoais. Sinta-se à vontade para
 				explorar e entrar em contato se tiver alguma dúvida ou quiser colaborar!
 			</p>
-			<div className="grid mt-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5 bg-gray-800">
+			<div className="grid mt-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
 				<CardProjeto
 					imagem={projeto1}
 					titulo="Projeto 1: Nome do projeto"
@@ -31,7 +31,6 @@ export default function Projetos() {
 					link="/projeto3"
 				></CardProjeto>
 			</div>
-			<Line></Line>
 		</div>
 	)
 }

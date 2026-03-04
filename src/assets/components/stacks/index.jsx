@@ -2,7 +2,7 @@ export default function Stacks() {
 	return (
 		<div className="flex flex-col items-center mt-10 mb-10">
 			<h1 className="text-3xl font-bold mb-6">MINHAS STACKS</h1>
-			<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+			<div className="flex flex-wrap justify-center gap-6">
 				<div className="flex flex-col items-center bg-gray-200 p-4 rounded-lg shadow-md">
 					<img
 						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"

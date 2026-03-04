@@ -9,7 +9,13 @@ export default function Header() {
 					</li>
 					<div className="flex gap-4 ">
 						<li>
+							<a href="">Stacks</a>
+						</li>
+						<li>
 							<a href="">Projetos</a>
+						</li>
+						<li>
+							<a href="">Curriculo</a>
 						</li>
 						<li>
 							<a href="">Artigos</a>
