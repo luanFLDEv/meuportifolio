@@ -6,12 +6,12 @@ import Line from '../inputs/line/index.jsx'
 export default function Projetos() {
 	return (
 		<div>
-			<h1 className="text-3xl font-bold mb-4 text-center">Meus Projetos</h1>
+			<h1 className="text-3xl font-bold mb-4 text-center">MEUS PROJETOS</h1>
 			<p className="text-lg mb-4 text-center">
 				Aqui estão alguns dos meus projetos pessoais. Sinta-se à vontade para
 				explorar e entrar em contato se tiver alguma dúvida ou quiser colaborar!
 			</p>
-			<div className="grid mt-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5 bg-blue-700">
+			<div className="grid mt-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5 bg-gray-800">
 				<CardProjeto
 					imagem={projeto1}
 					titulo="Projeto 1: Nome do projeto"

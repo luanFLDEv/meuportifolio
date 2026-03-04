@@ -3,7 +3,7 @@ export default function Header() {
 	return (
 		<div className="mb-0">
 			<nav className="">
-				<ul className="flex text-center justify-between w-full bg-blue-600 p-2 text-white ">
+				<ul className="flex text-center justify-between w-full bg-gray-800 p-2 text-white ">
 					<li>
 						<a href="">Luansin Code-Space</a>
 					</li>

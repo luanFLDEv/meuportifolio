@@ -1,14 +1,15 @@
-import fotoPerfil from '../img/perfil.gif'
+import fotoPerfil from '../img/me4.png'
 import Line from '../inputs/line'
+import Stacks from '../stacks'
 export default function Telaprincipal() {
 	return (
-		<div className="mt-10">
-			<div className="flex justify-center items-center mb-3.5 ">
-				<div className="flex flex-col bg-blue-600 p-8 rounded-lg shadow-lg">
+		<div className="mt-10 text-black">
+			<div className="flex justify-center items-center mb-3.5 gap-10 ">
+				<div className="flex flex-col bg-white p-8 rounded-lg shadow-lg">
 					<h1 className="bg-black text-white  text-center  ">
 						Luansin Code-Space
 					</h1>
-					<div className="flex items-center  gap-8">
+					<div className="flex items-center mt-1 gap-8">
 						<img
 							src={fotoPerfil}
 							alt="Foto de Perfil"
@@ -18,21 +19,33 @@ export default function Telaprincipal() {
 							<h2 className="text-3xl font-bold mb-4">
 								Bem-vindo ao meu portfólio!
 							</h2>
-							<p className="text-lg">
-								Meu nome é Luan Felipe, sou um desenvolvedor full-stack. usando
-								react e node.js
-							</p>
 							<p className="text-lg mt-4">
-								No momento estou estudando para me tornar um desenvolvedor
-								backend especializado em Java oque sempre foi meu sonho.{' '}
+								Meu nome é Luan, sou programador Full Stack,A seguir encontrarão
+								minhas stacks, projetos e artigos.<br></br> Meios de contato 👇
 							</p>
-							<h3 className="text-xl mt-4">
-								Aqui em baixo voces podem ver meus projetos e alguns "artigos"
-								que eu escrevo como forma de fixar meu aprendizado
-							</h3>
+							<ul className="flex gap-4 mt-2">
+								<li>Luanfelipepf@gmail.com</li>
+								<li>
+									<a
+										href="https://www.linkedin.com/in/luanfpdev/"
+										className="text-blue-500 hover:underline"
+									>
+										LinkedIn
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://github.com/luanFLDEv"
+										className="text-blue-500 hover:underline"
+									>
+										GitHub
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
+				<Stacks></Stacks>
 			</div>
 			<Line></Line>
 		</div>
